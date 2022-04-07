@@ -2,6 +2,7 @@
 
 int main(void)
 {
-	printf("Hello\n");
+	puts("Programming is like building a multilingual puzzle\n");
 	return(0);
 }
+
