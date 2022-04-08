@@ -11,9 +11,11 @@ int main(void)
 	num = 0;
 	while (num < 10)
 	{
-		printf("%d", num);
+		putchar(num);
+		putchar(',');
+		putchar(' ');
 		num++;
 	}
-	printf("\n");
+	putchar('\n');
 	return (0);
 }
