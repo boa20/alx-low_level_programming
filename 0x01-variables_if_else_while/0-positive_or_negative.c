@@ -5,12 +5,13 @@
 /**
  * main - This is the starting point of the program
  * *
- * Return - returns 0 after execution
+ * Return: returns 0 after execution
  */
 
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* My code */
