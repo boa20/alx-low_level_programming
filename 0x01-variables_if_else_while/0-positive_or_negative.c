@@ -4,12 +4,12 @@
 /**
  * main - This is the starting point of the program
  * *
- * Return - The program returns 0 after execution
+ * Return - returns 0 after execution
  */
 int main(void)
 {
 	int n;
-	
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	
@@ -18,16 +18,16 @@ int main(void)
 	{
 		printf("%d is positive\n", n);
 	}
-
+	
 	else if (n == 0)
 	{
-		printf("%d is 0\n", n);
+		printf("%d is zero\n", n);
 	}
-
+	
 	else
 	{
 		printf("%d is negative\n", n);
 	}
-
+	
 	return (0);
 }
