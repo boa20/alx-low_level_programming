@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - Starting point
- * *
- * Return: returns 0
+ *main - Starting point
+ **
+ *Return: returns 0
  */
 int main(void)
 {
@@ -26,7 +26,9 @@ int main(void)
 				putchar(',');
 				putchar(' ');
 			}
+		}
 	}
 	putchar('\n');
 	return (0);
 }
+
