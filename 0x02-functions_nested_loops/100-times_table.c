@@ -19,24 +19,21 @@ void print_times_table(int n)
 				if (b == 0)
 				{
 					_putchar('0');
-				}
-				else if (product <= 9)
+				} else if (product <= 9)
 				{
 					_putchar(',');
 					_putchar(' ');
 					_putchar(' ');
 					_putchar(' ');
 					_putchar((product % 10) + '0');
-				}
-				else if (product >= 100)
+				} else if (product >= 100)
 				{
 					_putchar(',');
 					_putchar(' ');
 					_putchar((product / 100) + '0');
 					_putchar(((product / 10) % 10) + '0');
 					_putchar((product % 10) + '0');
-				}
-				else
+				} else
 				{
 					_putchar(',');
 					_putchar(' ');
