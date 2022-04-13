@@ -2,7 +2,8 @@
 
 /**
  * add - adds two integers
- * @a, @b: the integers to be added
+ * @a: integer to be added
+ * @b: integers to be added
  * Return: Returns result of addition
  */
 int add(int a, int b)
