@@ -34,6 +34,6 @@ int main(void)
 		j2 = k2 - j2;
 	}
 
-	printf("%d\n", counter);
+	printf("\n");
 	return (0);
 }
