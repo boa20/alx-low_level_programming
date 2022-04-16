@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - print largest prime factor of a number
- *
+ **
  * return: returns 0 always
  */
 int main(void)
@@ -13,7 +13,7 @@ int main(void)
 	{
 		if (num % a == 0)
 		{
-			num /= a;
+			num = num / a;
 		}
 		else
 		{
