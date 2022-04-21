@@ -5,7 +5,7 @@
  * @b: represents the one of the pointers used to swap the values of two integers
  * Return: nothing
  */
-void reset_to_98(int *a, int *b)
+void swap_int(int *a, int *b)
 {
 	int c = *a;
 	*a = *b;
