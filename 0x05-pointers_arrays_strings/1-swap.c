@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * reset_to_98 - updates the value of its parameter to 98
- * @a: represents the one of the pointers used to swap the values of two integers
- * @b: represents the one of the pointers used to swap the values of two integers
+ * swap_int - swaps the values of to integers
+ * @a: one of the pointers used to swap the values of two integers
+ * @b: one of the pointers used to swap the values of two integers
  * Return: nothing
  */
 void swap_int(int *a, int *b)
