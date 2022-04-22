@@ -37,7 +37,9 @@ int _atoi(char *s)
 		}
 	}
 	if (p < 0)
-	z *= -1;
+	{
+		z *= -1;
+	}
 
-	return (0);
+	return (z);
 }
