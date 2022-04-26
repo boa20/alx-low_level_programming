@@ -4,7 +4,7 @@
  * @dest: destination for copy
  * @src: source to copy from
  * @n: number of byte to copy
- * return: returns a pointer to dest
+ * Return: returns a pointer to dest
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
@@ -13,7 +13,7 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 
 	while (n > 0)
 	{
-		dest[a] = src[j];
+		dest[a] = src[b];
 		a++;
 		b++;
 		n--;
