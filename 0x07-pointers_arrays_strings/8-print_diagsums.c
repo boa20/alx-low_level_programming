@@ -1,4 +1,4 @@
- #include "main.h"
+ #include <stdio.h>
 /**
  * print_diagsums- adds numbers in a diagonal
  * @a: array containing characters
